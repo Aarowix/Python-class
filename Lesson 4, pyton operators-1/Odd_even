@@ -1,0 +1,7 @@
+No = int(input("PLease enter number : "))
+print("Number to be checked" ,No)
+if No/2 == 0 :
+    print("number is even")
+else:
+    print("number is odd")
+   
