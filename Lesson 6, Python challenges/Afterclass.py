@@ -1,10 +1,10 @@
 import time
-a = 12
-b = 120
-c = 10
-print("Numbers are",a,b,c)
-print(a*b==c)
-print("System error, numbers assigned wrong, rewriting...")
+a = 1
+b = 3
+c = 2
+print(a, b, c, "go!")
+
+print("System error, numbers countdown wrong, rewriting...")
 time.sleep(3)
-a,b,c = b,c,a
-print(b*c==a)
+a,b,c = b,a,c
+print(a, c, b, "go!" )
